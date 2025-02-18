@@ -7,3 +7,11 @@ authors:
 license: [ CC-BY-NC ]
 message: Generic citation for Scal projects
 title: Scal Human
+references:
+  - type: software
+    abstract: Text-based diagrams generation tool
+    authors:
+      - family-names: Roques
+        given-names: Arnaud
+    title: PlantUml
+    url: http://plantuml.com

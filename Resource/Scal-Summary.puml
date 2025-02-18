@@ -1,0 +1,42 @@
+@startwbs
+!theme sandstone
+<Style>
+    Document {
+        BackgroundColor #333333
+    }
+  node {
+    margin 1
+    padding 8
+    ' sameWidth true
+    ' minimumWidth 128
+    ' RoundCorner 12
+  }
+</Style>
+* <img:.\Scal.png{scale=0.5}>\nWho am I ?
+ - Perso
+  -_ Drummer since 2021
+  -_ Saved by medicine in 2001 and 2003
+  -_ Composer since 1985
+  -_ Sci-Fi addict since 1981
+  -_ Escaped from a sect in 1976
+  -_ Poet at least since 1976
+  -_ Music addict since 1974
+  -_ Saved by medicine in 1974
+  -_ Saved by my brother in 1972
+  -_ More or less human since 1965
+ + Pro
+  +_ 2020 Solution Architect
+  +_ 2018 Technical Architect
+  +_ 2000 dotNet Consultant
+  +_ 1989 Software Consultant
+  +_ 1988 Analyst-programmer
+  +_ 1986 Electro-mecanician
+  +_ 1985 First own computer
+  +_ 1984 In a computer science journey
+
+Legend
+I consider 30+ years of Software Consultancy
+in very diverse domains, companies and technologies
+as a kind of Computer Science Companionship.
+End Legend
+@endwbs
