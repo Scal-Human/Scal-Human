@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 authors:
-  name: Scal
+- name: Scal
   alias: JIC Softwares
   city: Brussels
   coutry: BE
@@ -9,10 +9,10 @@ license: [ CC-BY-NC ]
 message: Generic citation for Scal projects
 title: Scal Human
 references:
-  - type: software
-    abstract: Text-based diagrams generation tool
-    authors:
-      - family-names: Roques
-        given-names: Arnaud
-    title: PlantUml
-    url: http://plantuml.com
+- type: software
+  abstract: Text-based diagrams generation tool
+  authors:
+    - family-names: Roques
+      given-names: Arnaud
+  title: PlantUml
+  url: http://plantuml.com
