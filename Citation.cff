@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 authors:
-- name: Scal
+- name: Scal Human
   alias: JIC Softwares
   city: Brussels
   coutry: BE
   orcid: https://orcid.org/0009-0001-2985-9666
 license: [ CC-BY-NC ]
 message: Generic citation for Scal projects
-title: Scal Human
+title: Common credit to Scal repositories
 references:
 - type: software
   abstract: Text-based diagrams generation tool
