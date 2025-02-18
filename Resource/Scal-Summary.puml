@@ -2,11 +2,13 @@
 !theme sandstone
 <Style>
     Document {
-        BackgroundColor #333333
+        BackgroundColor #0D1117
+        FontColor WhiteSmoke
     }
   node {
     margin 1
     padding 8
+    FontColor WhiteSmoke
   }
 </Style>
 * <img:.\Scal.png{scale=0.5}>\nWho am I ?
