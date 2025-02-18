@@ -1,16 +1,26 @@
 @startwbs
 !theme sandstone
 <Style>
-    Document {
-        BackgroundColor #0D1117
-        FontColor WhiteSmoke
-    }
-  node {
-    margin 1
-    padding 8
+  Document {
+      BackgroundColor #0D1117
+      FontColor WhiteSmoke
+  }
+  Title {
+    BorderColor Transparent
+    FontSize 12
+  }
+  Node {
+    Margin 1
+    Padding 8
     FontColor WhiteSmoke
+    HorizontalAlignment Center
+  }
+  Depth(1) {
+    SameWidth true
+    MinimumWidth 56
   }
 </Style>
+Title Scal Human
 * <img:.\Scal.png{scale=0.5}>\nWho am I ?
  - Perso
   -_ Drummer since 2021
