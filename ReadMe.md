@@ -20,7 +20,10 @@ Scal.{gerund}.{subjects}(.{variations})
 - The third part is a subject, a plural form of a noun, a technology, or **Abstractions**.
 - If present, additional parts may denote variations or specializations.
 
-Examples:
+When it exists, the **Abstractions** library contains the models and contracts used and implemented by the other libraries of the family.
+It may also contain generic implementations or base classes as long as they remain usable in all cases.
+
+### Examples
 
 ```
 Scal.Interpreting.Commands
@@ -33,5 +36,6 @@ Scal.Serializing.Xml
 Scal.Serializing.Yaml
 ```
 
-When it exists, the **Abstractions** library contains the models and contracts used and implemented by the other libraries of the family.
-It may also contain generic implementations or base classes as long as they remain usable in all cases.
+### Exceptions
+
+The MSBuild Sdk's project are named **Scal.Sdk.xxx**.
