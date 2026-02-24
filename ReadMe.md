@@ -4,7 +4,7 @@
 
 The .Net libraries names, and the namespaces they contain, are unconventional and do not follow
 the usual namings found in the framework because naming conventions in the framework evolved
-over time and are not always consistent across components
+over time and are not always consistent across components.
 
 For instance, **System.Text.Json** is about serialization, and **System.Xml.Serialization** is handling text data.
 
@@ -38,4 +38,4 @@ Scal.Serializing.Yaml
 
 ### Exceptions
 
-The MSBuild Sdk's project are named **Scal.Sdk.xxx**.
+The MSBuild Sdk's project are named **Scal.Sdk.xxx**, see [Scal.Sdk.Abstractions](https://github.com/Scal-Human/Scal.Sdk.Abstractions).
