@@ -1,5 +1,13 @@
 ![Who am I](Resource/Scal-Summary.svg)
 
+Where | What
+--- | ---
+[BlogSpot Ex-Pression](http://scal-ex-pression.blogspot.com) | Texts (French, English)
+[GitHub](https://github.com/Scal-Human?tab=repositories) | Repositories
+[NuGet](https://www.nuget.org/profiles/Scal.Human) | Packages
+[PowerShell Gallery](https://www.nuget.org/profiles/Scal.Human) | Modules
+[SoundCloud Ex-Pression](https://soundcloud.com/ex-pression) | Tunes
+
 ## Repositories naming
 
 The .Net libraries names, and the namespaces they contain, are unconventional and do not follow
