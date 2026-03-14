@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 
+exec pwsh -File '.\Operation\Build-Diagram.ps1'
+exit

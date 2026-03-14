@@ -19,31 +19,25 @@ For instance, **System.Text.Json** is about serialization, and **System.Xml.Seri
 So instead of trying to follow rules that do not exist, that change over time or that depend on the team that created the components;
 I prefer being consistent and predictable so you just have the surprise once: on the first library you use.
 
-```
-Scal.{gerund}.{subjects}(.{variations})
-```
+![Repo-Naming](Documentation/Repo-Naming.svg)
 
-- The first part is, as adviced, a company/person name.
-- The second part is a gerund form of a verb describing what you can do with the library.
-- The third part is a subject, a plural form of a noun, a technology, or **Abstractions**.
-- If present, additional parts may denote variations or specializations.
-
-When it exists, the **Abstractions** library contains the models and contracts used and implemented by the other libraries of the family.
-It may also contain generic implementations or base classes as long as they remain usable in all cases.
+A capability repository often produces two packages:
+- the abstractions with interfaces and primitives (e.g. Scal.Serializing.Abstractions)
+- the core implementation (e.g. Scal.Serializing)
 
 ### Examples
 
 ```
 Scal.Interpreting.Commands
-Scal.Serializing.Abstractions
+Scal.Serializing
 Scal.Serializing.Csv
 Scal.Serializing.Ini
 Scal.Serializing.Json
 Scal.Serializing.Json.Schemas
 Scal.Serializing.Xml
-Scal.Serializing.Yaml
+Scal.Storing.Documents.LiteDB
 ```
 
 ### Exceptions
 
-The MSBuild Sdk's project are named **Scal.Sdk.xxx**, see [Scal.Sdk.Abstractions](https://github.com/Scal-Human/Scal.Sdk.Abstractions).
+The MSBuild Sdk's project are named **Scal.Sdk.xxx**, see [Scal.Sdk](https://github.com/Scal-Human/Scal.Sdk).

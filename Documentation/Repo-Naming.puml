@@ -1,0 +1,17 @@
+@startebnf
+!theme blueprint
+SkinParam BackgroundColor #222
+Repository = "Scal", ".", Capability (* Gerund verb form *),
+    [
+        ".",
+        (
+            Subjects (* Plural noun *) |
+            Scope (* E.g. Meteorology *) |
+            Technology
+        ),
+        {
+            ".",
+            ( Variation | Specialization | Technology )
+        }
+    ];
+@end
