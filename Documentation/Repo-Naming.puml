@@ -1,4 +1,4 @@
-@startebnf
+@startebnf Repo-Naming
 !theme blueprint
 SkinParam BackgroundColor #222
 Repository = "Scal", ".", Capability (* Gerund verb form *),
