@@ -1,5 +1,5 @@
 $InformationPreference = 'Continue'
-'Running' > C:\Host\Recording\GitHook.log
+'Running' | Out-File -Append C:\Host\Recording\GitHook.log
 Get-ChildItem -File -Recurse (Join-Path $PSScriptRoot '..\*.puml') | ForEach-Object {
     $source = $_
     $targetPath = [System.IO.Path]::ChangeExtension($source.FullName, 'svg')

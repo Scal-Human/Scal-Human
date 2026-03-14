@@ -1,4 +1,5 @@
 #!/bin/sh
 echo 
+exec pwsh -Command '$PSScriptRoot | Out-File -Append "C:\Host\Recording\GitHook.log"'
 exec pwsh -File '.\Operation\Build-Diagram.ps1'
 exit
