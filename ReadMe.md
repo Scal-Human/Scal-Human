@@ -1,4 +1,4 @@
-![Who am I](Resource/Scal-Summary.svg)
+![Who am I](https://raw.githubusercontent.com/Scal-Human/Scal-Human/refs/heads/main/Resource/Scal-Summary.svg)
 
 Where | What
 --- | ---
@@ -19,7 +19,7 @@ For instance, **System.Text.Json** is about serialization, and **System.Xml.Seri
 So instead of trying to follow rules that do not exist, that change over time or that depend on the team that created the components;
 I prefer being consistent and predictable so you just have the surprise once: on the first library you use.
 
-![Repo-Naming](Documentation/Repo-Naming.svg)
+![Repo-Naming](https://raw.githubusercontent.com/Scal-Human/Scal-Human/refs/heads/main/Documentation/Repo-Naming.svg)
 
 A capability repository often produces two packages:
 - the abstractions with interfaces and primitives (e.g. Scal.Serializing.Abstractions)

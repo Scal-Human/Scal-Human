@@ -1,1 +1,3 @@
-. (Join-Path $PSScriptRoot 'Build-Diagram.ps1')
+Import-Module (Join-Path $PSScriptRoot 'Repository.psm1')
+Assert-DiagramFreshness
+Assert-MarkdownLinkValidity
