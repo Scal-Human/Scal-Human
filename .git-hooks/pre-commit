@@ -1,5 +1,4 @@
 #!/bin/sh
 echo 
-exec pwsh -File '.\Operation\Build-Diagram.ps1'
-exec pwsh -Command 'Write-Output ("Path : {0}" -f (Get-Location)) | Out-File -Append "C:\Host\Record\GitHook.log"'
+exec pwsh -File '.\Operation\Initialize-Commit.ps1'
 exit
