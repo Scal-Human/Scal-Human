@@ -10,6 +10,7 @@ Get-ChildItem -File -Recurse (Join-Path $PSScriptRoot '..\*.puml') | ForEach-Obj
             Write-Error ('Error generating PlantUml diagram {0}' -f $targetPath)
             Exit $LastExitCode
         }
+        & git add $targetPath
     } Else {
         ('Up-to-date diagram {0}' -f $targetPath)
     }
