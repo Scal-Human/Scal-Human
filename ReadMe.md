@@ -1,4 +1,4 @@
-![Who am I](https://raw.githubusercontent.com/Scal-Human/Scal-Human/refs/heads/main/Resource/Scal-Summary.svg)
+![Who am I](https://raw.githubusercontent.com/Scal-Human/Scal-Human/refs/heads/main/Documentation/Scal-Summary.svg)
 
 Where | What
 --- | ---
