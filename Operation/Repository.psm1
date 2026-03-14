@@ -1,4 +1,13 @@
+# Version 1.0.0
 
+<#
+    .Synopsis
+        Ensures that the links in Markdown files are using the permalink to raw image and pages links.
+
+    .Notes
+        - This is required for the images to be shown in the ReadMe when viewed on NuGet as it does not resolve relative paths.
+        - Modified files are added to the commit.
+#>
 Function Assert-MarkdownLinkValidity
 {
     [CmdletBinding()]
@@ -40,6 +49,13 @@ Function Assert-MarkdownLinkValidity
     }
 }
 
+<#
+    .Synopsis
+        Ensures that the .svg files are fresh and reflect the content of the source .puml files.
+
+    .Notes
+        - Modified files are added to the commit.
+#>
 Function Assert-DiagramFreshness
 {
     Get-ChildItem -File -Recurse (Join-Path $PSScriptRoot '..\*.puml') | ForEach-Object {
@@ -48,7 +64,7 @@ Function Assert-DiagramFreshness
         $target = Get-Item $targetPath -ErrorAction Ignore
         If (($Null -Eq $target) -Or ($target.LastWriteTime -Lt $source.LastWriteTime)) {
             ('Generating diagram {0}' -f $targetPath)
-            plantumlc.exe -tsvg $source.FullName
+            & plantumlc -tsvg $source.FullName
             If ($LastExitCode -Ne 0) {
                 Write-Error ('Error generating PlantUml diagram {0}' -f $targetPath)
                 Exit $LastExitCode
