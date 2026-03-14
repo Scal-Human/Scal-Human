@@ -11,7 +11,7 @@ Repository = "Scal", ".", Capability (* Gerund verb form *),
         ),
         {
             ".",
-            ( Variation | Specialization | Technology )
+            ( Specialization | Technology | Variation )
         }
     ];
 @end
