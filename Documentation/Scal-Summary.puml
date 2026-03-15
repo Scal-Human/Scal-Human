@@ -20,7 +20,7 @@
     MinimumWidth 56
   }
 </Style>
-* <img:.\Scal.png{scale=0.5}>\nWho am I ?
+* <img:..\Resource\Scal.png{scale=0.5}>\nWho am I ?
  - Perso
   -_ Drummer since 2021
   -_ Photographer since 2008

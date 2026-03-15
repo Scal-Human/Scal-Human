@@ -1,4 +1,7 @@
 cff-version: 1.2.0
+title:        Scal-Human
+abstract:     Common credit to Scal repositories
+message:      Citation template
 authors:
 - name:       Scal Human
   alias:      JIC Softwares
@@ -6,8 +9,6 @@ authors:
   coutry:     BE
   orcid:      https://orcid.org/0009-0001-2985-9666
 keywords:     [ architect, consultant, software ]
-message:      Generic citation for Scal projects
-title:        Common credit to Scal repositories
 references:
 - type:       software
   abstract:   Text-based diagrams generation tool
