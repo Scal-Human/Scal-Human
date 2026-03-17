@@ -35,7 +35,6 @@ Scal.Serializing.Ini
 Scal.Serializing.Json
 Scal.Serializing.Json.Schemas
 Scal.Serializing.Xml
-Scal.Storing.Documents.LiteDB
 ```
 
 ### Exceptions
