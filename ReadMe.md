@@ -10,7 +10,7 @@ Where | What
 
 ## Repositories naming
 
-The .Net libraries names, and the namespaces they contain, are unconventional and do not follow
+The DotNet libraries names, and the namespaces they contain, are unconventional and do not follow
 the usual namings found in the framework because naming conventions in the framework evolved
 over time and are not always consistent across components.
 
