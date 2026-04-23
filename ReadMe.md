@@ -40,3 +40,5 @@ Scal.Serializing.Xml
 ### Exceptions
 
 The MSBuild Sdk's project are named **Scal.Sdk.xxx**, see [Scal.Sdk](https://github.com/Scal-Human/Scal.Sdk).
+
+Demos such as issue reproduction repositories have adhoc names.
